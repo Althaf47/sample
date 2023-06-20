@@ -1,0 +1,26 @@
+
+.narnia,.image1,.image2,.image3,.image4,.image5,.image6,.image7,.image8
+{
+    height:290px;
+}
+
+.btnn 
+{
+    width:180px;
+    height:23px;
+    font-family:Helvetica;
+    font-weight:bold;
+    color:black;
+    border:none;
+    border-radius:3px;
+    background-color:#9ED2C6;
+    font-size:15px;
+
+    
+
+}
+
+.sentance 
+{
+    color:white;
+}

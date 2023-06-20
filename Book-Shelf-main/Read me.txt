@@ -1,0 +1,14 @@
+                              
+A person owns a Book Store and he gets good costumers often and he realizes that if his book store is known to more number of peoples then chances of his books gettinfg sold are also pretty high.
+
+                So i have come up with a project to help him to aid in his Store's development and Popularity.
+I have designed a web site where in all of the books if not most of the books in his book stote would be presented as per their respective generes meaning they are arranged in sections as per their particular generes. 
+and also i have enabled the userlogin system wherein initially they would register in the web site and after that they wouyd have a account opened for this store.
+So whenever they want a book they can come to this web site and order books without even going to the store.Once the user regsiters in the web sitehe can access his account whenever he wants 
+with his user name and password.If a user wishes to buy a partcular book or more then he can come to this book store web site and seclect
+ genere section of his desired book and then he can search if there is anyhting he likes if he wishes to buy that particular book he can click on option buy it would redirect him to the payment page 
+where aftet he confirms ordering the book the book order request would be successfully completed.
+                    Or if he wants to know more about the book like how is the book and what are its specifictaions if there are any discounts or if the book is even worth reading .He can know about all these and after 
+that if he is wants he can finally order the book.
+
+~So this is the end to end process of the book store Web site working.

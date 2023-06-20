@@ -1,0 +1,30 @@
+body
+{
+    background-image: url("castle.jpg");
+    
+}
+
+.sentance
+{
+   color: rgb(204, 228, 225);
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 16px;
+
+
+
+
+
+   
+}
+
+
+.btnn 
+{
+    width:200px;
+    font-family:Helvetica;
+    font-weight:bold;
+    background-color:#E6D2AA;
+    border:none;
+    border-radius:3px;
+
+}

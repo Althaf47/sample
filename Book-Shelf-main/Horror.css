@@ -1,0 +1,73 @@
+body
+{
+    background-image: url("thril1.jpg");
+}
+.sentance
+{
+  color:white;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 16px;
+
+
+
+
+
+   
+}
+
+
+.container
+{
+    margin: 0;
+    position: absolute;
+    top: 190px;
+}
+
+.narnia
+{
+
+height: 290px;
+width:180px;
+
+
+}
+
+.image1
+{
+height: 290px;
+
+}
+
+.image2
+{
+height: 290px;
+}
+
+.image3,.image4,.image5,.image6,.image7
+{
+    height: 290px;
+    width:180px;
+}
+
+
+.btnn 
+{
+    width:180px;
+    height:23px;
+    font-family:Helvetica;
+    font-weight:bold;
+    color:black;
+    border:none;
+    border-radius:3px;
+    background-color:#9ED2C6;
+    font-size:15px;
+    
+
+}
+
+.sentance 
+{
+    position:relative;
+    top:10px;
+    font-family:verdana;
+}

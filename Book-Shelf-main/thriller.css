@@ -1,0 +1,48 @@
+body
+{
+    background-image: url("castle1.jpg");
+}
+.sentance
+{
+   color: rgb(255, 255, 255);
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 16px;
+
+
+
+
+
+   
+}
+
+
+.container
+{
+    margin: 0;
+    position: absolute;
+    top: 190px;
+}
+
+.narnia
+{
+
+height: 400px;
+
+
+}
+
+.image1
+{
+height: 400px;
+
+}
+
+.image2
+{
+height: 400px;
+}
+
+.image3,.image4,.image5,.image6,.image7
+{
+height: 400px;
+}

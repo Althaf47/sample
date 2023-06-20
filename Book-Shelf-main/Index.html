@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shelf</title>
+    <!--Bootstrap files-->
+   <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Amatic+SC&family=Bad+Script&family=Coming+Soon&family=Crafty+Girls&family=Felipa&family=Give+You+Glory&family=Italianno&family=M+PLUS+Rounded+1c:wght@300&family=Merienda:wght@700&family=Montez&family=Neucha&family=Nothing+You+Could+Do&family=PT+Sans+Narrow&family=Pangolin&family=Sue+Ellen+Francisco&family=Tangerine:wght@700&family=The+Girl+Next+Door&family=Zeyada&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Amatic+SC&family=Bad+Script&family=Coming+Soon&family=Crafty+Girls&family=Felipa&family=Give+You+Glory&family=Italianno&family=M+PLUS+Rounded+1c:wght@100;300&family=Merienda:wght@700&family=Montez&family=Neucha&family=Nothing+You+Could+Do&family=PT+Sans+Narrow&family=Pangolin&family=Sue+Ellen+Francisco&family=Tangerine:wght@700&family=The+Girl+Next+Door&family=Zeyada&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="image.ico">
+<link rel="stylesheet" href="styler.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    
+   
+    <nav class="navbar navbar-expand-lg bg-primary-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Index.html"><span style="color:white">BookShelf</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href=""><span style="color:white">Home</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="classical.html"><span style="color:white">CLassical</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Fiction.html"><span style="color:white">Fiction</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="thriller.html"><span style="color:white">Thriller</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Horror.html"><span style="color:white">Horror</span></a>
+              </li>
+
+           
+               
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span style="color:white">Your Things</span>
+                  
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Your Likes <i class="bi bi-heart"></i></a></li>
+                  <li><a class="dropdown-item" href="#">Saved Lines <i class="bi bi-bookmark-fill"></i></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Read later list</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <div  class="para"><h2>The Books<br> that you like.</h2></div>
+      <div  class="para1">Hey Welcome to <b>The Book Shelf</b> <hr class="mn"> </div> <div class="para2">in this you would find all kind of books that you would surely like.<br><b>Happy Reading</b></div> 
+
+
+    <!-- <div class="review1">
+      I really liked this store They have thes amazing books I would surely recommend everyone to go to this store if you want to buy any good book.
+      ✰✰✰✰✰
+      <br>
+      <p id="res">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<b>~Srikanth Lamani</b></p>
+      
+    </div>
+           -->
+     
+
+    <!-- <div id="carouselExampleIndicators" class="carousel slide holder" data-ride="carousel">
+      <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol> -->
+      <!-- <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="review11">
+              I really liked this store They have thes amazing books I would surely recommend everyone to go to this store if you want to buy any good book.
+              ✰✰✰✰✰
+              <br>
+              <p id="res">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<b>~Srikanth Lamani</b></p>
+              
+            </div>
+          </div>
+          <div class="carousel-item cn">
+              <div class="review2"> 
+
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="review33">
+
+              </div>
+          </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+  </div> -->
+
+  <div class="Login">
+    
+   <h1 style="font-size:25px "> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;ACCOUNT LOGIN </h1><br> <hr>
+
+   <span id="uname" style="font-size:20px">&ensp;&ensp;&ensp;&ensp;User Name</span> <br>
+   &ensp;&ensp;&ensp;&ensp;<input type="text" name="" id="name" >
+   <br>
+   <br>
+
+   <span class="pwd" style="font-size:20px">&ensp;&ensp;&ensp;&ensp;Password </span> <br>
+   &ensp;&ensp;&ensp;&ensp;<input type="password" id="pd" >  
+
+   <br>
+
+   <br>&ensp;&ensp;&ensp;&ensp;
+   <input type="checkbox"> Remember Me &ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp;&ensp;Forgot Password
+   <br>
+   <br>
+   
+
+   &ensp;&ensp;&ensp;&ensp;<input type="button" value="Login" class="fs">
+
+   <br> <br>
+
+   &ensp;&ensp;&ensp;&ensp;<span style="color:black">New User?</span> <a href="#"><u style="color:black">Register Here</u></a>
+
+
+  </div>
+
+<script src="function.js"> </script>
+</body>
+
+</html>

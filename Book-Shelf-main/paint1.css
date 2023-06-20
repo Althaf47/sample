@@ -1,0 +1,184 @@
+p 
+{
+    font-weight: bold;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* .last:hover
+{
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+  
+} */
+
+.btn1 
+{
+  position: absolute;
+  
+  top:426px;
+  left: 2px;
+  padding: 2px;
+  width: 204px;
+
+  background-color:rgb(0, 0, 0);
+  
+  margin-top: 20px;
+  color: white;
+  border-radius: 2px;
+  border: none;
+}
+.btn1:hover
+{
+background-color: rgb(17, 15, 15);
+}
+.btn2,.btn3,.btn4,.btn5,.btn6
+{
+  
+  position: absolute;
+  margin-top: 20px;
+
+  background-color:rgb(0, 0, 0);
+  color: white;
+  top:425px;
+
+  border-radius: 2px;
+  border: none;
+}
+
+
+.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9,.btn10,.btn11,.btn12 
+{
+  padding: 2px;
+  width: 204px;
+  margin-top: 20px;
+  border-radius: 2px solid black;
+  color: white;
+  background-color:rgb(0, 0, 0);
+  border-radius: 2px;
+  
+  border: none;
+}
+.btn2:hover 
+{
+  background-color: rgb(17, 15, 15);
+}.btn3:hover
+{
+  background-color: rgb(17, 15, 15);
+}
+.btn4:hover 
+{
+  background-color: rgb(17, 15, 15);
+}
+.btn5:hover 
+{
+  background-color: rgb(17, 15, 15);
+}
+
+.btn6:hover 
+{
+  background-color: rgb(17, 15, 15);
+}
+.btn7:hover 
+{
+  background-color: rgb(17, 15, 15);
+}
+
+.btn8:hover
+{
+  background-color: rgb(17, 15, 15);
+}
+.btn8:hover 
+{
+  background-color: rgb(17, 15, 15);
+}
+
+.btn9:hover 
+{
+  background-color: rgb(17, 15, 15);
+}
+.btn10:hover 
+{
+  background-color: rgb(17, 15, 15);
+}
+.btn11:hover 
+{
+  background-color: rgb(17, 15, 15);
+}
+
+.btn12:hover
+{
+  background-color: rgb(17, 15, 15);
+}
+.price1 
+{
+  position: absolute;
+  left: 60px;
+}
+
+.price2 
+{
+  position: absolute;
+  left:300px
+}
+
+.price3 
+{
+  position: absolute;
+  left:540px;
+} 
+.price4 
+{
+  position: absolute;
+  left:750px;
+}
+
+.price5 
+{
+  position: absolute;
+  left: 1000px;
+}
+
+.price6
+{
+  position: absolute;
+  left: 1220px;
+}
+
+
+
+
+
+.price7 
+{
+  position: absolute;
+  left: 60px;
+}
+
+.price8
+{
+  position: absolute;
+  left:300px
+}
+
+.price9
+{
+  position: absolute;
+  left:540px;
+} 
+.price10
+{
+  position: absolute;
+  left:750px;
+}
+
+.price11
+{
+  position: absolute;
+  left: 1000px;
+}
+
+.price12
+{
+  position: absolute;
+  left: 1220px;
+}
